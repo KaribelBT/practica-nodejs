@@ -1,0 +1,6 @@
+/*START APACHE LAMPP SERVER*/
+ENCENDER: sudo /opt/lampp/lampp start
+APAGAR: sudo /opt/lampp/lampp stop
+
+/*acceder phpmyadmin en el navegador*/
+http://localhost/phpmyadmin/db_sql.php?db=test

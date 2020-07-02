@@ -1,0 +1,27 @@
+{
+  "name": "clase48",
+  "version": "1.0.0",
+  "description": "Arma un modelo de base de datos que permita administrar los inmuebles que tiene una inmobiliaria para ofrecer a sus clientes.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaribelBT/practica-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaribelBT/practica-mongodb/issues"
+  },
+  "homepage": "https://github.com/KaribelBT/practica-mongodb#readme"
+}

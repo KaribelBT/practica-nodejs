@@ -1,0 +1,69 @@
+# GET: Listar los artistas disponibles
+# POST: Crear un artista
+# PUT: Modificar el artista
+# DELETE: Eliminar el artista
+
+openapi: 3.0.2
+# Cabecera del documento.
+info:
+  title: Mi artista favorito
+  description: API test con listado de artistas 
+  version: 1.0.0
+# Fin cabecera del documento.
+# Instancias de servidores disponibles para los paths.
+servers:
+- url: miaristafavoritoapi.com/
+# Fin Instancias.
+# Paths, listado de paths que vamos a definir para nuestra api.
+paths:
+  /personas: # 1er endPoint
+    get: # Metodo: GET, POST, PUT, etc
+      summary: Obtener todas las personas 
+      description: Descripcion más completa
+      responses: # Reponse. Se puede agregar todo los codigos posibles.
+        200:
+          description: OK
+          content: 
+            application/json:
+              schema:
+                type: array
+                items:
+                # $ref es una referencia a un componente definido.
+                  "$ref": "#/components/schemas/persona"
+        404:
+          description: No hay personas dadas del alta.
+    post:
+      summary: Crear una persona
+      description: Descripcion más completa
+      responses: # Reponse. Se puede agregar todo los codigos posibles.
+        200:
+          description: OK
+    put:
+      summary: Actualiza una persona
+      description: Descripcion más completa
+      responses: # Reponse. Se puede agregar todo los codigos posibles.
+        200:
+          description: OK
+    delete:
+      summary: Borrar una persona
+      description: Descripcion más completa
+      responses: # Reponse. Se puede agregar todo los codigos posibles.
+        200:
+          description: OK
+# Componentes: Aca se definen todos los componentes que vamos a utlizar.
+# pueden ser los objetos ya modelados con su respectivos tipos de datos.
+# En este caso se define el objeto "persona" con sus atributos.
+# 
+components:
+  schemas:
+    persona:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 17
+        name:
+          type: string
+          example: Juan
+        edad:
+          type: integer
