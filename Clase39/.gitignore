@@ -39,13 +39,6 @@ build/Release
 
 # Dependency directories
 node_modules/
-
-Clase39/node_modules
-Clase41/node_modules
-Clase42/node_modules
-Clase43/node_modules
-Clase44/node_modules
-
 jspm_packages/
 
 # TypeScript v1 declaration files
