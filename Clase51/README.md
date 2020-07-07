@@ -19,5 +19,5 @@ Generar los query de select para:
 - Ver todos los productos de un pedido
 
 Insert Bulk
-- Generar un CSV con más de 1000 líneas. 
+- Generar un CSV con 10 líneas. 
 - Crear un código para ejecutar con Node e importar todos los registros en una tabla.

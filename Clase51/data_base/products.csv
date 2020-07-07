@@ -1,0 +1,11 @@
+id, name, price, stock, enable
+2, jeans, 500, 50, 1
+3, skirt, 500, 50, 1
+4, shirt, 500, 50, 1
+5, dress, 500, 50, 1
+6, joggins, 500, 50, 1
+7, leggins, 500, 50, 1
+8, top, 500, 50, 1
+9, tshirt, 500, 50, 1
+10, jacket, 500, 50, 1
+11, sweater, 500, 50, 1
