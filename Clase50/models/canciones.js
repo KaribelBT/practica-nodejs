@@ -1,7 +1,7 @@
 class Canciones {
     create(sql, nombre, duracion, album, banda, fecha_publicacion) {
         let resp = sql.query(
-            `INSERT INTO canciones nombre, duracion, album, banda, fecha_publicacion) 
+            `INSERT INTO canciones (nombre, duracion, album, banda, fecha_publicacion) 
             VALUES (:nombre, :duracion, :album, :banda, :fecha_publicacion)`,
             {
                 replacements: {
