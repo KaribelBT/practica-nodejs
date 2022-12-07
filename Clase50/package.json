@@ -4,9 +4,9 @@
   "description": "Instalar las siguientes dependencias: - express - nodemon  - sequelize - mysql2",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "csvtojson": "^2.0.10",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
     "sequelize": "^6.3.0"
